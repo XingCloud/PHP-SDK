@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:quests xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Group id="2001" name="group1" description="这是一组任务">
+  <Quest id="1342" name="任务1" description="购买/播种/浇水" next="1344">
+     <Action type="BuyAction" count="5" itemId="2001"/>
+     <Action type="SowAction" count="1"/>
+     <Action type="WateringAction" count="5"/>
+     <Change type="BuyAuditChange" count="4"/>
+  </Quest>
+    <Group id="2002" name="group2"  description="这是一组内部嵌套任务">
+   <Quest id="1343" name="任务2" description="购买/浇水/收割">
+      <Action type="BuyAction" count="10"/>
+      <Action type="WateringAction" count="5" itemId="3001"/>
+      <Action type="ReapAction" count="1"/>
+   </Quest>
+   </Group>
+  </Group>
+  <Group id="2003" name="group3" startTime="123456" endTime="345678" repeatCount="-1" repeatInterval="1234">
+   <Quest id="1344" name="任务3"  description="收割/卖出" prev="1342">
+     <Action type="ReapAction" count="3"/>
+     <Action type="SellAction" count="2" fruitUID="1003"/>
+   </Quest>
+  </Group>
+</tns:quests>

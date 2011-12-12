@@ -1,0 +1,58 @@
+/* CSS template */
+
+/* main style */
+
+.H1{
+	font-family: "SimSun";
+	font-size:60;
+	font-style: normal;
+	font-weight: bold;	
+	color:#ff0000;
+}
+.H2{
+	font-family: "SimHei";
+	font-size:46;
+	font-style: normal;
+	font-weight: normal;
+	color:#00ff00;
+}
+
+.H3{
+	font-family: "SimSun";
+	font-size:36;
+	font-style: normal;
+	font-weight: normal;
+	color:#0000ff;
+}
+.H4{
+	font-family: "SimHei";
+	font-size:14;
+	font-style: normal;
+	font-weight: bold;	
+	color:#000000;
+}
+
+/* font embed */
+/*
+@font-face {
+    src: url("location") | local("name");
+    fontFamily: alias;
+    [fontStyle: normal | italic | oblique;]
+    [fontWeight: normal | bold | heavy;]
+    [advancedAntiAliasing: true | false;]
+    unicodeRange:U+4e2d,U+6587,U+5b57,U+4f53,U+5d4c,U+5165,U+6d4b,U+8bd5;
+}
+*/
+@font-face
+{
+	src: url("simsun.ttc");
+	fontFamily: "SimSun";	
+	fontStyle:italic;
+}
+
+@font-face
+{
+	src: url("simhei.ttf");
+	fontFamily:'SimHei';
+	fontWeight:bold;
+}

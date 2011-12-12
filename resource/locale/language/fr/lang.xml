@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources type="en">
+	  <string name="nameLabel">Name</string>
+	  <string name="expLabel">Exp</string>
+	  <string name="coinsLabel">Coins</string>
+	  <string name="buyButton">Buy</string>
+	  <string name="sellButton">Sell</string>
+</resources>

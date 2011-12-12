@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Group id="g1">
+		<ItemSpec duration="10" id="1" name="rose" description="rose" type="flower" src="grassbushTile00" cost="100" icon="1" level="1" class="rose.RoseItemSpec"/>
+		<ItemSpec duration="10" id="2" name="tree" description="rose" type="tree" src="grassbushTile03" cost="120" icon="1" level="1" class="TreeItemSpec"/>
+		<Group id="g2">
+			<ItemSpec duration="10" id="100" name="rose" description="rose" type="rose" src="grassbushTile00" cost="100" icon="1" level="1" class=""/>
+			<ItemSpec duration="10" id="200" name="tree" description="rose" type="tree" src="grassbushTile03" cost="120" icon="1" level="1" class=""/>
+		</Group>
+	</Group>
+</tns:database>

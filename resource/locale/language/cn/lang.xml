@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources type="cn">
+	  <string name="nameLabel">名字</string>
+	  <string name="expLabel">经验</string>
+	  <string name="coinsLabel">金钱</string>
+	  <string name="buyButton">购买</string>
+	  <string name="sellButton">卖出</string>
+</resources>

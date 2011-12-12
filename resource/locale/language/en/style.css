@@ -1,0 +1,57 @@
+/* CSS template */
+
+/* main style */
+
+.H1{
+	font-family: "Impact";
+	font-size:48;
+	font-style: normal;
+	font-weight: bold;	
+	color:#ff0000;
+}
+.H2{
+	font-family: "Georgia";
+	font-size:36;
+	font-style: normal;
+	font-weight: normal;	
+	color:#00ff00;
+}
+
+.H3{
+	font-family: "Georgia";
+	font-size:30;
+	font-style: normal;
+	font-weight: normal;	
+	color:#0000ff;
+}
+.H4{
+	font-family: "Georgia";
+	font-size:13;
+	font-style: normal;
+	font-weight: bold;	
+	color:#ff00ff;
+}
+
+/* font embed */
+/*
+@font-face {
+    src: url("location") | local("name");
+    fontFamily: alias;
+    [fontStyle: normal | italic | oblique;]
+    [fontWeight: normal | bold | heavy;]
+    [advancedAntiAliasing: true | false;]
+}
+*/
+@font-face
+{
+	src: url("impact.ttf");
+	fontFamily: "Impact";	
+	fontStyle:italic;
+}
+
+@font-face
+{
+	src: url("georgia.ttf");
+	fontFamily:'Georgia';
+	fontWeight:bold;
+}
