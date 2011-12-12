@@ -1,0 +1,21 @@
+<project name="xingcloud" basedir="." default="all" >
+	<property name="game.dir" location="game"/>
+	<property name="public.dir" location="public"/>
+	<property name="resource.dir" location="resource"/>
+	<property name="phpsdk.dir" location=""/>
+	<property name="zipfile.name" location="deploy.zip"/>
+	<target name="zip">
+		<delete includeemptydirs="true" failonerror="false">
+			<fileset file="${zipfile.name}"/>
+		</delete>
+		<zip destfile="${zipfile.name}">
+		     <fileset dir="${phpsdk.dir}">
+		     	<exclude name=".buildpath"></exclude>
+		     	<exclude name=".settings"></exclude>
+		     	<exclude name=".project"></exclude>
+		     </fileset>
+		</zip>
+	</target>
+	<target name="all" depends="zip">
+	</target>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xingcloud:config xmlns:xingcloud="http://www.iw.com/sns/config/">
+<!-- 缓存信息配置文件 -->
+<!--
+<memcache>
+	<type>memcache</type>
+	<servers>
+		<server>
+			<host>10.18.138.201</host>
+			<port>11211</port>
+		</server>
+	</servers>
+</memcache>
+-->
+</xingcloud:config>
