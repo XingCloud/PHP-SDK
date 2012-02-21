@@ -68,12 +68,9 @@ class XFileStream extends XAbstractStream{
 		if($fileName){		
 			header("Content-Disposition: {$output->getContentDispotion()}; filename=\"{$fileName}\"");
 		}
+		$content = $output->getContent();
 		if($this->gzip){
-			$content = gzcompress($output->getContent());
-		}else{
-			$content = gzencode($output->getContent());
-			header("Content-Encoding: gzip");
-			header("Vary: Accept-Encoding");
+			$content = gzcompress($content);
 		}
 		$len = strlen($content);
 		header("Content-Length: $len");
