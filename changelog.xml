@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <changelog name="PHP SDK">
+<version name="1.3.1.0">
+新特性：
+1. 运行bin目录下的update.bat会自动更新gameengine，但不会更新用户代码所在的game目录
+</version>
 <version name="1.3.0.2">
 优化：
 1. 通过CacheServiceFactory::getCacheAccess()来获取缓存实例
