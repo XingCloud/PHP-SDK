@@ -27,7 +27,7 @@ class XXMLStream extends XAbstractStream{
 	 * <xingcloud:request xmlns:xingcloud="http://www.iw.com/sns/request/">
 	 * <user_uid>1018138244da56947bd48e</user_uid>
 	 * </xingcloud:request>
-	 * <code>
+	 * </code>
 	 * 
 	 * @return array
 	 */
@@ -62,7 +62,7 @@ class XXMLStream extends XAbstractStream{
 	 * <xingcloud:result xmlns:xingcloud="http://www.iw.com/sns/result/">
 	 * ......
 	 * </xingcloud:result>
-	 * <code>
+	 * </code>
 	 * 
 	 * @param string $output
 	 */

@@ -48,7 +48,7 @@ final class XConfig{
 	 * 
 	 * 载入配置信息
 	 * 
-	 * 默认的配置文件目录为常量XINGCLOUD_DIR下的config目录
+	 * 默认的配置文件目录为常量XINGCLOUD_GAMEENGINE_DIR下的config目录
 	 * 
 	 * 配置加载的策略与程序index.php中声明的环境常量__DEV__相关
 	 * 

@@ -4,10 +4,10 @@ class FrameworkTestCase extends BaseServiceTestCase{
 	protected $enableService=FALSE;
 
 	public function testConfig(){
-		if(!is_file(XINGCLOUD_DIR.'/index.php')){
+		if(!is_file(XINGCLOUD_GAMEENGINE_DIR.'/index.php')){
 			XAssert::fail('index.php not exists');
 		}
-		$contents = file(XINGCLOUD_DIR.'/index.php');
+		$contents = file(XINGCLOUD_GAMEENGINE_DIR.'/index.php');
 		$isDev = true;
 		$usePhar = true;
 		foreach ($contents as $line){
