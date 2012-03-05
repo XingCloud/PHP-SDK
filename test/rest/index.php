@@ -186,7 +186,7 @@ function submit(){
         						<tbody>
 								<tr>
         							<td width="160" align="right">Server：</td>
-        							<td>http://<input type="text" id="address" name="address" value="<?php echo $_SERVER['HTTP_HOST']?>" style="width:190px;" onchange="showAPI();">
+        							<td>http://<input type="text" id="address" name="address" value="<?php echo $_SERVER['HTTP_HOST']?><?php echo preg_replace('/\/gameengine/i', '', preg_replace('/\/test\/rest(\/index\.php)*$/i','',$_SERVER['PHP_SELF']))?>" style="width:190px;" onchange="showAPI();">
         							</td>
         						</tr>			
 								<tr>
